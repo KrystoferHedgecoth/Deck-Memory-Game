@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <meta name="description" content="Your description here">
+    <meta name="keywords" content="your, keywords, here">
+    <meta name="author" content="Your Name">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="start-screen">
+        <div id="start-overlay"></div>
+        <div id="start-content" class="button-container">
+            <button id="play-game-btn">PLAY GAME!</button>
+            <button id="clear-lowest-attempts-btn">CLEAR LOWEST ATTEMPTS</button>
+        </div>
+    </div>
+
+    <div id="end-screen">
+        <div id="end-overlay"></div>
+        <div id="end-content" class="button-container">
+            <h1>YOU WIN!</h1>
+            <p id="lowest-attempts">Lowest Attempts:<span id="end-highscore-span"></span></p>
+            <button id="play-again-btn">MAIN MENU</button>
+        </div>
+    </div>
+
+    <div id="highscore-box">
+        <span id="lowest-attempts-game">Lowest Attempts:<span id="highscore">0</span></span>
+    </div>
+
+    <div id="grid-container"></div>
+
+    <div id="counter-box">
+        <span id="counter">Attempts:</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
